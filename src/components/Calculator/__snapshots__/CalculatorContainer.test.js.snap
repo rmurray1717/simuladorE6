@@ -1,0 +1,522 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Calcuator Container Should match calculator snapshot 1`] = `
+<DocumentFragment>
+  <main
+    class="MuiContainer-root MuiContainer-maxWidthSm"
+  >
+    <div
+      class="makeStyles-paper-2"
+    >
+      <h1
+        class="MuiTypography-root MuiTypography-h5"
+      >
+        Mortgage Calculator
+      </h1>
+      <h2
+        class="MuiTypography-root MuiTypography-h5"
+        data-testid="mortgage-payment"
+      >
+        --
+      </h2>
+      <form
+        class="makeStyles-form-3"
+        novalidate=""
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+              id="property-price"
+            >
+              Property Price
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+          >
+            <span
+              class="MuiSlider-root MuiSlider-colorPrimary"
+              data-testid="property-price-input"
+            >
+              <span
+                class="MuiSlider-rail"
+              />
+              <span
+                class="MuiSlider-track"
+                style="left: 0%; width: 0%;"
+              />
+              <input
+                type="hidden"
+                value="400000"
+              />
+              <span
+                aria-labelledby="property-price"
+                aria-orientation="horizontal"
+                aria-valuemax="2000000"
+                aria-valuemin="400000"
+                aria-valuenow="400000"
+                aria-valuetext="$400000"
+                class="MuiSlider-thumb MuiSlider-thumbColorPrimary"
+                data-index="0"
+                role="slider"
+                style="left: 0%;"
+                tabindex="0"
+              />
+            </span>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-2"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+              id="property-price-value"
+            >
+              $400000
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+              id="down-payment"
+            >
+              Down Payment
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+          >
+            <span
+              class="MuiSlider-root MuiSlider-colorPrimary"
+              data-testid="down-payment-input"
+            >
+              <span
+                class="MuiSlider-rail"
+              />
+              <span
+                class="MuiSlider-track"
+                style="left: 0%; width: 0%;"
+              />
+              <input
+                type="hidden"
+                value="5"
+              />
+              <span
+                aria-labelledby="down-payment"
+                aria-orientation="horizontal"
+                aria-valuemax="100"
+                aria-valuemin="5"
+                aria-valuenow="5"
+                aria-valuetext="5%"
+                class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-5"
+                data-index="0"
+                role="slider"
+                style="left: 0%;"
+                tabindex="0"
+              >
+                <span
+                  class="PrivateValueLabel-offset-7 MuiSlider-valueLabel"
+                >
+                  <span
+                    class="PrivateValueLabel-circle-8"
+                  >
+                    <span
+                      class="PrivateValueLabel-label-9"
+                    >
+                      5
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </span>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-2"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+              id="down-payment-value"
+            >
+              5%
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+              id="interest-rate"
+            >
+              Interest Rate
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+          >
+            <span
+              class="MuiSlider-root MuiSlider-colorPrimary"
+              data-testid="interest-rate-input"
+            >
+              <span
+                class="MuiSlider-rail"
+              />
+              <span
+                class="MuiSlider-track"
+                style="left: 0%; width: 20%;"
+              />
+              <input
+                type="hidden"
+                value="2"
+              />
+              <span
+                aria-labelledby="interest-rate"
+                aria-orientation="horizontal"
+                aria-valuemax="10"
+                aria-valuemin="0"
+                aria-valuenow="2"
+                aria-valuetext="2%"
+                class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-5"
+                data-index="0"
+                role="slider"
+                style="left: 20%;"
+                tabindex="0"
+              >
+                <span
+                  class="PrivateValueLabel-offset-7 MuiSlider-valueLabel"
+                >
+                  <span
+                    class="PrivateValueLabel-circle-8"
+                  >
+                    <span
+                      class="PrivateValueLabel-label-9"
+                    >
+                      2
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </span>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-2"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+              id="interest-rate-value"
+            >
+              2%
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-submit-4 MuiButton-containedPrimary"
+              data-testid="select-rates-btn"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Select Rate
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+              id="amortization-period"
+            >
+              Amortization Period
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+          >
+            <span
+              class="MuiSlider-root MuiSlider-colorPrimary"
+              data-testid="amortization-period-input"
+            >
+              <span
+                class="MuiSlider-rail"
+              />
+              <span
+                class="MuiSlider-track"
+                style="left: 0%; width: 0%;"
+              />
+              <input
+                type="hidden"
+                value="5"
+              />
+              <span
+                aria-labelledby="amortization-period"
+                aria-orientation="horizontal"
+                aria-valuemax="30"
+                aria-valuemin="5"
+                aria-valuenow="5"
+                aria-valuetext="5 years"
+                class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-5"
+                data-index="0"
+                role="slider"
+                style="left: 0%;"
+                tabindex="0"
+              >
+                <span
+                  class="PrivateValueLabel-offset-7 MuiSlider-valueLabel"
+                >
+                  <span
+                    class="PrivateValueLabel-circle-8"
+                  >
+                    <span
+                      class="PrivateValueLabel-label-9"
+                    >
+                      5
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </span>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-2"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+              id="amortization-period-value"
+            >
+              5 Yr(s)
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+              id="payment-schedule"
+            >
+              Payment Schedule
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+          >
+            <fieldset
+              class="MuiFormControl-root"
+            >
+              <div
+                aria-label="payment-schedule"
+                class="MuiFormGroup-root"
+                role="radiogroup"
+              >
+                <label
+                  class="MuiFormControlLabel-root"
+                >
+                  <span
+                    aria-disabled="false"
+                    class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-10 MuiRadio-root MuiRadio-colorSecondary PrivateSwitchBase-checked-11 Mui-checked MuiIconButton-colorSecondary"
+                  >
+                    <span
+                      class="MuiIconButton-label"
+                    >
+                      <input
+                        checked=""
+                        class="PrivateSwitchBase-input-13"
+                        name="payment-schedule"
+                        type="radio"
+                        value="BIWKLY"
+                      />
+                      <div
+                        class="PrivateRadioButtonIcon-root-14 PrivateRadioButtonIcon-checked-16"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                          />
+                        </svg>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root PrivateRadioButtonIcon-layer-15"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                          />
+                        </svg>
+                      </div>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </span>
+                  <span
+                    class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                  >
+                    Biweekly
+                  </span>
+                </label>
+                <label
+                  class="MuiFormControlLabel-root"
+                >
+                  <span
+                    aria-disabled="false"
+                    class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-10 MuiRadio-root MuiRadio-colorSecondary MuiIconButton-colorSecondary"
+                  >
+                    <span
+                      class="MuiIconButton-label"
+                    >
+                      <input
+                        class="PrivateSwitchBase-input-13"
+                        name="payment-schedule"
+                        type="radio"
+                        value="ACC_BIWKLY"
+                      />
+                      <div
+                        class="PrivateRadioButtonIcon-root-14"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                          />
+                        </svg>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root PrivateRadioButtonIcon-layer-15"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                          />
+                        </svg>
+                      </div>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </span>
+                  <span
+                    class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                  >
+                    Accelerated Biweekly
+                  </span>
+                </label>
+                <label
+                  class="MuiFormControlLabel-root"
+                >
+                  <span
+                    aria-disabled="false"
+                    class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-10 MuiRadio-root MuiRadio-colorSecondary MuiIconButton-colorSecondary"
+                  >
+                    <span
+                      class="MuiIconButton-label"
+                    >
+                      <input
+                        class="PrivateSwitchBase-input-13"
+                        name="payment-schedule"
+                        type="radio"
+                        value="MTHLY"
+                      />
+                      <div
+                        class="PrivateRadioButtonIcon-root-14"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                          />
+                        </svg>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root PrivateRadioButtonIcon-layer-15"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                          />
+                        </svg>
+                      </div>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </span>
+                  <span
+                    class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                  >
+                    Monthly
+                  </span>
+                </label>
+              </div>
+            </fieldset>
+          </div>
+        </div>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-submit-4 MuiButton-containedPrimary MuiButton-fullWidth"
+          data-testid="calculate-btn"
+          tabindex="0"
+          type="submit"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Calculate
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-submit-4 MuiButton-containedSecondary MuiButton-fullWidth"
+          data-testid="reset-btn"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Reset
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-flex-end"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item"
+          />
+        </div>
+      </form>
+    </div>
+  </main>
+</DocumentFragment>
+`;
